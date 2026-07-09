@@ -8,6 +8,6 @@ int main() {
     utils::log("Starting pipeline_app");
     std::cout << "add(" << a << ", " << b << ") = " << math::add(a, b) << "\n";
     std::cout << "multiply(" << a << ", " << b << ") = " << math::multiphly(a, b) << "\n";
-    utils::log("pipeline_app finished")
+    utils::log("pipeline_app finished");
     return 0;
 }
