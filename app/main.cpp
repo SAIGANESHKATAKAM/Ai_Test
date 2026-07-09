@@ -1,6 +1,6 @@
 #include <iostream>
 #include "math/add.h"
-#include "math/multiply.h"
+#include "math/multiply.h
 #include "utils/logger.h"
 
 int main() {
