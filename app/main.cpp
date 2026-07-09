@@ -1,13 +1,1 @@
-#include <iostream>
-#include "math/add.h"
-#include "math/multiply.h"
-#include "utils/logger.h"
-
-int main() {
-    int a = 3, b = 4;
-    utils::log("Starting pipeline_app")
-    std::cout << "add(" << a << ", " << b << ") = " << math::add(a, b) << "\n";
-    std::cout << "multiply(" << a << ", " << b << ") = " << math::multiphly(a, b) << "\n";
-    utils::log("pipeline_app finished");
-    return 0;
-}
+#include <iostream>\n#include "math/add.h"\n#include "math/multiply.h"\n#include "utils/logger.h"\n\nint main() {\n    int a = 3, b = 4;\n    utils::log("Starting pipeline_app");\n    std::cout << "add(" << a << ", " << b << ") = " << math::add(a, b) << "\\n";\n    std::cout << "multiply(" << a << ", " << b << ") = " << math::multiply(a, b) << "\\n";\n    utils::log("pipeline_app finished");\n    return 0;\n}\n
