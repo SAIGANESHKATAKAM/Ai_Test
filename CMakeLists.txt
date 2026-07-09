@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(PROJECT_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
 
+include_directories(${PROJECT_SOURCE_DIR}/src ${PROJECT_INCLUDE_DIR})
+
 add_subdirectory(src)
 add_subdirectory(app)
 
