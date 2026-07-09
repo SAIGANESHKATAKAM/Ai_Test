@@ -1,5 +1,5 @@
 #include <iostream>
-//#include "math/add.h"
+#include "math/add.h"
 #include "math/multiply.h"
 #include "utils/logger.h"
 
