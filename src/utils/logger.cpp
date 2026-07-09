@@ -2,5 +2,5 @@
 #include <iostream>
 
 void utils::log(const std::string& msg) {
-    std::cout << msg << std::end
+    std::cout << msg << std:end
 }
