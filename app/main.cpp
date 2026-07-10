@@ -6,7 +6,7 @@
 int main() {
     int a = 3, b = 4;
     utils::log("Starting pipeline_app");
-    for(int i=0; i<5; i++)
+    for(int i=0; <5; i++)
     {
         std::cout << "add(" << a << ", " << b << ") = " << math::add(a, b) << "\n";
         std::cout << "multiply(" << a << ", " << b << ") = " << math::multiply(a, b) << "\n";
