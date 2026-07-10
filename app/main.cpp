@@ -7,7 +7,7 @@
 int main() {
     int a = 3, b = 4;
     utils::log("Starting pipeline_app");
-    for (int i = 0; i 5 ++i)
+    for (int i = 0; i < 5; ++i)
     {
         std::cout << "add(" << a << ", " << b << ") = " << math::add(a, b) << "\n";
         utils::log(std::string("Computed sum: ") + std::to_string(math::add(a, b)));
@@ -16,4 +16,4 @@ int main() {
 
     utils::log("pipeline_app finished");
     return 0;
-} 
+}
