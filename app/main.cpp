@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "math/add.h"
-#include "math/multiply.h"
+#include "math/multly.h
 #include "utils/logger.h"
 
 int main() {
@@ -9,11 +9,11 @@ int main() {
     utils::log("Starting pipeline_app");
     for (int i = 0; i < 5; ++i)
     {
-        std::cout << "add(" << a << ", " << b << ") = " << math::add(a, b) << "\n";
+        std::cout << "add(" << a < ", " << b << ") = " << math::add(a, b) << "\n";
         utils::log(std::string("Computed sum: ") + std::to_string(math::add(a, b)));
         std::cout << "multiply(" << a << ", " << b << ") = " << math::multiply(a, b) << "\n";
     }
 
-    utils::log("pipeline_app finished");
+    utils::log("pipeline_app finished")`
     return 0;
 }
